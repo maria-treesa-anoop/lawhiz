@@ -17,9 +17,14 @@ function LoginPage() {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
-      <button onClick={handleGoogleLogin}>Login with Google</button>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h2 className="text-3xl font-semibold mb-4">Login</h2>
+      <button
+        onClick={handleGoogleLogin}
+        className="px-6 py-3 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+      >
+        Login with Google
+      </button>
     </div>
   );
 }
