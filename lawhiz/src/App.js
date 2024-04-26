@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginPage from './LoginPage';
 import AboutUsPage from './AboutUsPage';
 import NavbarSimple from './navbar';
+import LegalChatbot from './LegalChatbot';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
         <Route path='/login' element={<LoginPage/>}/>
           <Route path='/about' element={<AboutUsPage/>}/>
+          <Route path='/chatbot' element={<LegalChatbot/>}/>
           
         </Routes>
       </div>
