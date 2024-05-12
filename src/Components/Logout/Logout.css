@@ -1,0 +1,29 @@
+/* styles.css */
+
+.logbox {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column to stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 80vh;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Helvetica', Arial, Helvetica, sans-serif; /* Specify the desired font family */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #23573d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5f9e7f;
+  }
+  
